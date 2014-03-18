@@ -7,3 +7,10 @@ gem "middleman-blog", "~> 3.5.2"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+gem 'rspec', group: [:development, :test]
+
+group :test do
+  gem 'launchy', '~> 2.3.0'
+  gem 'capybara', '~> 2.2.0'
+end
